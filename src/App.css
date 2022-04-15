@@ -1,0 +1,105 @@
+body{
+min-width: 1170px;}
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+
+.submit {
+	cursor: pointer;
+	border:  solid #32CD32;
+	background: #32CD32;
+	padding: 8px 14px;
+	width: 120px;
+  color: white;
+}
+.submit:hover {
+	box-shadow: inset 0px -10px 10px #98FB98;
+}
+.submit:active {
+	margin-top: 1px;
+	margin-bottom: -1px;
+	zoom: 1;
+}
+.submit:focus
+{
+	outline:none;
+} 
+
+.navbar {
+  width: 100%;
+  margin: 0px 50px;
+  background-color: #162136;
+}
+.navbar_container {
+  width: 1170px;
+  margin: 30px -300px;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  float: right;
+}
+
+
+.main {
+  width: 100%;
+  padding: 0 150px;
+  margin: 0 auto;
+  background: white;
+  padding-bottom: 10px;
+}
+
+
+.main_container{
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #ffff;
+}
+
+.columns{
+  list-style: none;
+  width: 1170px;
+  padding: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.company_name{
+  position: relative;
+  max-width: 80%;
+  height: 100px;
+  display: flex;
+ 
+}
+
+.company_name div{
+  align-self: center;
+  width: 30vw;
+  margin: 0px auto;
+  padding: 30px 30px;
+  color: black;
+  border-color:  rgb(35, 35, 35);
+  border-width: 2px;
+  border-style: solid;
+}
+
+.company_name div:hover {
+	box-shadow: inset 5px -5px #ebebeb;
+  cursor: pointer;
+}
+.company_name div:hover {
+	margin-top: 1px;
+	margin-bottom: -1px;
+	zoom: 1;
+}
+
